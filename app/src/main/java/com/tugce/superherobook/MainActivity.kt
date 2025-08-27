@@ -88,27 +88,23 @@ class MainActivity : ComponentActivity() {
         val ironman = Superhero("Ironman","Marvel",R.drawable.ironman)
         val aquaman = Superhero("Aquaman","DC",R.drawable.aquaman)
         val deadpool = Superhero("Deadpool","Marvel",R.drawable.deadpool)
+        val hulk = Superhero("Hulk","Marvel",R.drawable.hulk)
+        val thor = Superhero("Thor","Marvel",R.drawable.thor)
+        val scarlet = Superhero("Scarlet Witch ","Marvel",R.drawable.scarlet)
+        val flash = Superhero("Flash","DC",R.drawable.flash)
+
+
 
         superheroList.add(superman)
         superheroList.add(batman)
         superheroList.add(ironman)
         superheroList.add(aquaman)
         superheroList.add(deadpool)
-        superheroList.add(superman)
-        superheroList.add(batman)
-        superheroList.add(ironman)
-        superheroList.add(aquaman)
-        superheroList.add(deadpool)
-        superheroList.add(superman)
-        superheroList.add(batman)
-        superheroList.add(ironman)
-        superheroList.add(aquaman)
-        superheroList.add(deadpool)
-        superheroList.add(superman)
-        superheroList.add(batman)
-        superheroList.add(ironman)
-        superheroList.add(aquaman)
-        superheroList.add(deadpool)
+        superheroList.add(hulk)
+        superheroList.add(thor)
+        superheroList.add(scarlet)
+        superheroList.add(flash)
+
     }
 }
 

@@ -25,8 +25,6 @@ import kotlin.math.min
 fun SuperheroList(superheros: List<Superhero>, navController: NavController) {
     val listState = rememberLazyListState()
     val firstVisibleItemScrollOffset = listState.firstVisibleItemScrollOffset
-
-    // Scroll ilerledikçe 0f → 1f arasında bir değer üretelim
     val scrollFactor = min(firstVisibleItemScrollOffset / 600f, 1f)
 
     LazyColumn(
@@ -49,11 +47,11 @@ fun SuperheroList(superheros: List<Superhero>, navController: NavController) {
 
 @Composable
 fun SuperheroRow(superhero: Superhero, navController: NavController, scrollFactor: Float) {
-    // Scroll ilerledikçe gradient açılıyor
+
     val gradientBrush = Brush.verticalGradient(
         colors = listOf(
-            Color(0xFFB3E5FC).copy(alpha = 1f - scrollFactor), // Açık mavi
-            Color(0xFF0288D1).copy(alpha = 0.9f - scrollFactor / 2) // Koyu mavi
+            Color(0xFFB3E5FC).copy(alpha = 1f - scrollFactor),
+            Color(0xFF0288D1).copy(alpha = 0.9f - scrollFactor / 2)
         )
     )
 

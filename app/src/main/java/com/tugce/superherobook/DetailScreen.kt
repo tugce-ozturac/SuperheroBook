@@ -25,8 +25,8 @@ import androidx.compose.ui.unit.toOffset
 fun DetailScreen(superhero: Superhero) {
     val gradientBackground = Brush.verticalGradient(
         colors = listOf(
-            Color(0xFF141E30), // koyu mavi
-            Color(0xFF243B55)  // biraz daha açık
+            Color(0xFF141E30),
+            Color(0xFF243B55)
         )
     )
 
@@ -41,7 +41,7 @@ fun DetailScreen(superhero: Superhero) {
             verticalArrangement = Arrangement.spacedBy(24.dp),
             modifier = Modifier.padding(16.dp)
         ) {
-            // Kahraman ismi - Neon Glow
+
             Text(
                 text = superhero.name,
                 style = MaterialTheme.typography.displayMedium,
@@ -52,7 +52,7 @@ fun DetailScreen(superhero: Superhero) {
 
             )
 
-            // Resim - sabit boyut
+
             Image(
                 bitmap = ImageBitmap.imageResource(id = superhero.image),
                 contentDescription = superhero.name,
@@ -65,7 +65,7 @@ fun DetailScreen(superhero: Superhero) {
                     .padding(8.dp)
             )
 
-            // Universe etiketi
+
             Box(
                 modifier = Modifier
                     .background(
