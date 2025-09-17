@@ -15,24 +15,21 @@ Uygulamada kullanıcılar süper kahraman listesinden seçim yaparak, kahramanla
 
 
 ## 📑 Kahraman Listesi
+
 <p align="center">
   <img src="screenshots/list_screen.png" width="300"/>
 </p>
 
+---
 
 ## 🦇 Detay Ekranı
 
 <p align="center">
-  <img src="screenshots/details_first.png" width="300"/>
+  <img src="screenshots/details_first.png" width="250"/>
+  <img src="screenshots/details_next.png" width="250"/>
+  <img src="screenshots/details_second.png" width="250"/>
 </p>
 
-<p align="center">
-  <img src="screenshots/details_next.png" width="300"/>
-</p>
-
-<p align="center">
-  <img src="screenshots/details_second.png" width="300"/>
-</p>
 
 ## 🛠️ Kullanılan Teknolojiler
 -Kotlin
